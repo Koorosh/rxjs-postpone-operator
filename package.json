@@ -1,0 +1,36 @@
+{
+  "name": "rxjs-wait-between",
+  "version": "1.0.0",
+  "description": "Postpones next value emitting for specified period of time",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "prepublish": "rm -rf ./lib && tsc",
+    "test": "mocha -r ts-node/register --opts ./spec/mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koorosh/rxjs-wait-between.git"
+  },
+  "keywords": [
+    "rxjs",
+    "operator"
+  ],
+  "author": "koorosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Koorosh/rxjs-wait-between/issues"
+  },
+  "homepage": "https://github.com/Koorosh/rxjs-wait-between#readme",
+  "dependencies": {
+    "rxjs": "^6.5.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
